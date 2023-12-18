@@ -1,5 +1,5 @@
 //your JS code here. If required.
-function hello(){
-	let x=arguments.callee.name;
+function hello(y){
+	let x=y.callee.name;
 	alert("x");
 }
